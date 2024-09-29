@@ -20,7 +20,7 @@ def create_month_mean(df):
 
     return month_mean
 
-df = pd.read_csv('df_0.csv')
+df = pd.read_csv('https://github.com/ekickx/an/raw/refs/heads/main/dashboard/df_0.csv')
 df['date'] = pd.to_datetime(df['date'])
 
 # Prepare df
